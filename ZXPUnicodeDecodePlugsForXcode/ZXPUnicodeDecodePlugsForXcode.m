@@ -96,10 +96,12 @@ static IMP IMP_IDEConsoleItem_initWithAdaptorType = nil;
         self.unicodeDecodeInConsoleItem = [[NSMenuItem alloc] initWithTitle:@"ZXPUnicodeDecodeInConsole"
                                                                action:@selector(unicodeDecodeItemAction)
                                                         keyEquivalent:@""];
+
         [self.unicodeDecodeInConsoleItem setTarget:self];
         [[menuItem submenu] addItem:self.unicodeDecodeInConsoleItem];
         
         kZXPIsDecodeInConsole = [[NSUserDefaults standardUserDefaults] boolForKey:kZXPUnicodeDecodeInConsoleItemEnableKey];
+        kZXPIsDecodeInConsole = YES;
         if (kZXPIsDecodeInConsole) {
             self.unicodeDecodeInConsoleItem.state = NSOnState;
         }

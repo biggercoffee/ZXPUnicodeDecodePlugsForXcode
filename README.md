@@ -1,0 +1,2 @@
+# ZXPUnicodeDecodePlugsForXcode
+Xcode控制台Unicode转成中文。让你的数组和字典里包含中文的值，输出到控制台不在头疼。

@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A84C85B1D02E5CC0000BCB9 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A84C85A1D02E5CC0000BCB9 /* AppKit.framework */; };
+		1A84C85D1D02E5CC0000BCB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A84C85C1D02E5CC0000BCB9 /* Foundation.framework */; };
+		1A84C8611D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 1A84C8601D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.xcscheme */; };
+		1A84C8641D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C8631D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.m */; };
+		1A84C8671D02E5CC0000BCB9 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A84C8661D02E5CC0000BCB9 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A84C8571D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXPUnicodeDecodePlugsForXcode.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A84C85A1D02E5CC0000BCB9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1A84C85C1D02E5CC0000BCB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		1A84C8601D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = ZXPUnicodeDecodePlugsForXcode.xcscheme; path = ZXPUnicodeDecodePlugsForXcode.xcodeproj/xcshareddata/xcschemes/ZXPUnicodeDecodePlugsForXcode.xcscheme; sourceTree = SOURCE_ROOT; };
+		1A84C8621D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXPUnicodeDecodePlugsForXcode.h; sourceTree = "<group>"; };
+		1A84C8631D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXPUnicodeDecodePlugsForXcode.m; sourceTree = "<group>"; };
+		1A84C8651D02E5CC0000BCB9 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		1A84C8661D02E5CC0000BCB9 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		1A84C8681D02E5CC0000BCB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A84C8551D02E5CC0000BCB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A84C85B1D02E5CC0000BCB9 /* AppKit.framework in Frameworks */,
+				1A84C85D1D02E5CC0000BCB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A84C84E1D02E5CC0000BCB9 = {
+			isa = PBXGroup;
+			children = (
+				1A84C85E1D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode */,
+				1A84C8591D02E5CC0000BCB9 /* Frameworks */,
+				1A84C8581D02E5CC0000BCB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A84C8581D02E5CC0000BCB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A84C8571D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A84C8591D02E5CC0000BCB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A84C85A1D02E5CC0000BCB9 /* AppKit.framework */,
+				1A84C85C1D02E5CC0000BCB9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A84C85E1D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode */ = {
+			isa = PBXGroup;
+			children = (
+				1A84C8621D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.h */,
+				1A84C8631D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.m */,
+				1A84C8651D02E5CC0000BCB9 /* NSObject_Extension.h */,
+				1A84C8661D02E5CC0000BCB9 /* NSObject_Extension.m */,
+				1A84C8681D02E5CC0000BCB9 /* Info.plist */,
+				1A84C85F1D02E5CC0000BCB9 /* Supporting Files */,
+			);
+			path = ZXPUnicodeDecodePlugsForXcode;
+			sourceTree = "<group>";
+		};
+		1A84C85F1D02E5CC0000BCB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A84C8601D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A84C8561D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A84C86B1D02E5CC0000BCB9 /* Build configuration list for PBXNativeTarget "ZXPUnicodeDecodePlugsForXcode" */;
+			buildPhases = (
+				1A84C8531D02E5CC0000BCB9 /* Sources */,
+				1A84C8541D02E5CC0000BCB9 /* Resources */,
+				1A84C8551D02E5CC0000BCB9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXPUnicodeDecodePlugsForXcode;
+			productName = ZXPUnicodeDecodePlugsForXcode;
+			productReference = 1A84C8571D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A84C84F1D02E5CC0000BCB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = coffee;
+				TargetAttributes = {
+					1A84C8561D02E5CC0000BCB9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A84C8521D02E5CC0000BCB9 /* Build configuration list for PBXProject "ZXPUnicodeDecodePlugsForXcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A84C84E1D02E5CC0000BCB9;
+			productRefGroup = 1A84C8581D02E5CC0000BCB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A84C8561D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A84C8541D02E5CC0000BCB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A84C8611D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A84C8531D02E5CC0000BCB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A84C8641D02E5CC0000BCB9 /* ZXPUnicodeDecodePlugsForXcode.m in Sources */,
+				1A84C8671D02E5CC0000BCB9 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A84C8691D02E5CC0000BCB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		1A84C86A1D02E5CC0000BCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		1A84C86C1D02E5CC0000BCB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = ZXPUnicodeDecodePlugsForXcode/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coffee.zxp.ZXPUnicodeDecodePlugsForXcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		1A84C86D1D02E5CC0000BCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = ZXPUnicodeDecodePlugsForXcode/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coffee.zxp.ZXPUnicodeDecodePlugsForXcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A84C8521D02E5CC0000BCB9 /* Build configuration list for PBXProject "ZXPUnicodeDecodePlugsForXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A84C8691D02E5CC0000BCB9 /* Debug */,
+				1A84C86A1D02E5CC0000BCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A84C86B1D02E5CC0000BCB9 /* Build configuration list for PBXNativeTarget "ZXPUnicodeDecodePlugsForXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A84C86C1D02E5CC0000BCB9 /* Debug */,
+				1A84C86D1D02E5CC0000BCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A84C84F1D02E5CC0000BCB9 /* Project object */;
+}
